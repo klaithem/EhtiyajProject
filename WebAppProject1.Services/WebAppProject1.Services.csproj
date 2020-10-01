@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebAppProject1.Entity\WebAppProject1.Entity.csproj" />
+    <ProjectReference Include="..\WebAppProject1.Persistence\WebAppProject1.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
